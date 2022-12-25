@@ -1,0 +1,42 @@
+.text1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: tomato
+}
+
+p{
+    color: black
+}
+h2,h3,span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: palevioletred
+}
+#text2{
+    color: blueviolet
+}
+.text3,.text4{
+    color: red
+}
+a[href^="https"]{
+    font-size: medium;
+    font-variant: small-caps;
+    color: green
+}
+div li{
+    font-style: italic;
+    color: blue
+}
+div>p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hotpink
+}
+li[class="a"]{
+    color: goldenrod
+}
+li[class$="c"]{
+    color: skyblue
+}
+p:first-child{
+    color: aquamarine
+}
